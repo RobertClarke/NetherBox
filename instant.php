@@ -52,7 +52,7 @@ require_once('structure/header.php');
 				</article>
 				<article>
 					<header><h3>Where is InstantMCPE?</h3></header>
-					<p>InstantMCPE is now NetherBox Instant, enjoy free instant Minecraft PE and PC server hosting from NetherBox!</p>
+					<p>InstantMCPE is now NetherBox Instant, enjoy free instant Minecraft server hosting from NetherBox!</p>
 				</article>
 				<article>
 					<header><h3>What's the catch?</h3></header>
@@ -64,11 +64,11 @@ require_once('structure/header.php');
 				</article>
 				<article>
 					<header><h3>How can I extend my servers time?</h3></header>
-					<p>You can transfer your world to one of our paid plans, which start at $2.50 per month. Use promo code <a href="https://netherbox.com/?promo=instant" target="_blank"><b>INSTANT</b></a> to recieve <b>50% OFF</b> your first month!</p>
+					<p>You can transfer your world to one of our paid hosting plans, which start at $2.50 per month. Use promo code <a href="https://netherbox.com/?promo=instant" target="_blank"><b>INSTANT</b></a> to recieve <b>50% OFF</b> your first month!</p>
 				</article>
 				<article>
 					<header><h3>How can I add plugins?</h3></header>
-					<p>Plugins are supported only on our paid plans.</p>
+					<p>Plugins are supported only on our paid hosting plans.</p>
 				</article>
 				<article>
 					<header><h3>Server specs?</h3></header>
@@ -104,7 +104,7 @@ require_once('structure/header.php');
 </div>
 </div></div><div class="body server-bg"><div class="wrapper">
 <h3>High Performance Servers</h3>
-<h4>Enterprise Grade Hardware, High Performance Gaming</h4>
+<h4>Enterprise Grade Hardware, High Performance Hosting</h4>
 <div class="features">
 	<article>
 		<i class="icn-rocket"></i>
