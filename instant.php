@@ -130,7 +130,7 @@ require_once('structure/header.php');
 </div></div><div class="body white"><div class="wrapper">
 <div class="ready">
 	<p>24 hours not long enough?</p>
-	<a href="https://netherbox.com/?promo=instant" class="bttn" target="_blank">Check Out 24/7 Plans</a>
+	<a href="https://netherbox.com/?promo=instant" class="bttn" target="_blank">Check Out NetherBox Minecraft Hosting</a>
 </div>
 </div></div><div class="body bottom"><div class="wrapper">
 <script>
