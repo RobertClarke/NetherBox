@@ -3,7 +3,7 @@
 $page = [
 	'id'		=>	'instant',
 	'title'		=>	'Free Minecraft Server Hosting',
-	'seo_desc'	=>	'Start your own MCPE server today, with instant free minecraft server hosting.',
+	'seo_desc'	=>	'Start your own Minecraft server today, with NetherBox Instant\'s instant free Minecraft server hosting.',
 	'seo_tags'	=>	'free minecraft server hosting, free minecraft pe server hosting, minecraft server hosting, minecraft hosting, instant mcpe, mcpe server',
 
 	'header_h1'		=> 'NetherBox <span>Instant</span>',
