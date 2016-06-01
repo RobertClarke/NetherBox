@@ -52,11 +52,11 @@ require_once('structure/header.php');
 				</article>
 				<article>
 					<header><h3>Where is InstantMCPE?</h3></header>
-					<p>InstantMCPE is now NetherBox Instant, enjoy free instant Minecraft server hosting from NetherBox!</p>
+					<p>InstantMCPE is now NetherBox Instant, enjoy instant free Minecraft server hosting from NetherBox!</p>
 				</article>
 				<article>
 					<header><h3>What's the catch?</h3></header>
-					<p>The server gets destroyed after 24 hours, or 1 hour of inactivity. <b>Customers with paid plans do not get affected by this restriction.</b></p>
+					<p>The server gets destroyed after 24 hours, or 1 hour of inactivity. <b>Customers with paid hosting plans do not get affected by this restriction.</b></p>
 				</article>
 				<article>
 					<header><h3>Useful Commands</h3></header>
@@ -72,7 +72,7 @@ require_once('structure/header.php');
 				</article>
 				<article>
 					<header><h3>Server specs?</h3></header>
-					<p>Each server is hosted on the NetherBox Gravel plan with 512MB RAM and 10 player slots. Minecraft PC servers use Spigot and Minecraft PE servers use ImagicalMine.</p>
+					<p>Each server is hosted on the NetherBox Gravel plan with 512MB RAM and 10 player slots. PC Minecraft servers use Spigot and PE Minecraft servers use ImagicalMine.</p>
 				</article>
 			</section>
 		</div>
