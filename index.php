@@ -17,6 +17,16 @@ $page = [
 require_once('structure/header.php');
 
 ?>
+<article class="get-started">
+	<p>Enter your Minecraft name to get started!</p>
+	<div class="input">
+		<form action="/plans" method="GET">
+			<input type="text" name="username" id="username" value="" placeholder="Steve">
+			<input type="submit" value="Create My Server">
+		</form>
+	</div>
+</article>
+<div class="sep"></div>
 <article class="gametypes">
 	<header><h3>Gametypes </h3></header>
 	<p>We currently support these Minecraft gametypes.</p>

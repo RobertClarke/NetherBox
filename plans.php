@@ -224,7 +224,7 @@ require_once('structure/header.php');
 	</div>
 	<div class="select select-4">
 		<a href="#select" data-location="la" class="la"><p>Los Angeles <span class="extra">United States</span></p></a>
-		<a href="#select" data-location="dallas" class="dallas"><p>Dallas <span class="extra">United States</span></p></a>
+		<a href="#select" data-location="dallas" class="dallas" class="selected"><p>Dallas <span class="extra">United States - MOST POPULAR</span></p></a>
 		<a href="#select" data-location="ashburn" class="ashburn"><p>Ashburn <span class="extra">United States</span></p></a>
 		<a href="#select" data-location="amsterdam" class="amsterdam"><p>Amsterdam <span class="extra">Netherlands</span></p></a>
 	</div>

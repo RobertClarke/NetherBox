@@ -1,0 +1,6 @@
+.DS_Store
+*.codekit
+/assets/styles
+/assets/scripts-raw
+*.codekit-cache
+*.sass-cache
