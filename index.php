@@ -71,22 +71,22 @@ require_once('structure/header.php');
 	<article>
 		<i class="icn-heart"></i>
 		<h4>Dedicated Team</h4>
-		<p>Our dedicated team understands the need for fast and reliable service when it comes to your services. We're here to provide top notch service and support, and we're always happy to answer any questions you might have.</p>
+		<p>Our dedicated team understands the need for fast and reliable service when it comes to your minecraft server hosting. We're here to provide top notch service and support, and we're always happy to answer any questions you might have.</p>
 	</article>
 	<article>
 		<i class="icn-bubbles"></i>
 		<h4>Friendly Support</h4>
-		<p>If you ever have any questions or issues with any of our services, just let us know! Our team is ready to answer and resolve any questions and issues you might have. If you're not a customer and have any questions, we'll be happy to answer them!</p>
+		<p>If you ever have any questions or issues with any of our hosting solutions, just let us know! Our team is ready to answer and resolve any questions and issues you might have. If you're not a customer and have any questions, we'll be happy to answer them!</p>
 	</article>
 	<article>
 		<i class="icn-stats-dots"></i>
 		<h4>Always Improving</h4>
-		<p>We believe there's no such thing as a "perfect" hosting company. That's why we're constantly working on improving our services and control panel to ensure that every customer is receiving the best service for the money they pay.</p>
+		<p>We believe there's no such thing as a "perfect" minecraft server hosting company. That's why we're constantly working on improving our services and control panel to ensure that every customer is receiving the best service for the money they pay.</p>
 	</article>
 </div>
 </div></div><div class="body server-bg"><div class="wrapper">
 <h3>High Performance Servers</h3>
-<h4>Enterprise Grade Hardware, High Performance Gaming</h4>
+<h4>Enterprise Grade Hardware, High Performance Server Hosting</h4>
 <div class="features">
 	<article>
 		<i class="icn-rocket"></i>
