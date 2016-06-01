@@ -64,7 +64,7 @@ require_once('structure/header.php');
 				</article>
 				<article>
 					<header><h3>How can I extend my servers time?</h3></header>
-					<p>You can transfer your world to one of our paid hosting plans, which start at $2.50 per month. Use promo code <a href="https://netherbox.com/?promo=instant" target="_blank"><b>INSTANT</b></a> to recieve <b>50% OFF</b> your first month!</p>
+					<p>You can transfer your world to one of our paid <a href="https://netherbox.com/?promo=instant" target="_blank">minecraft server hosting</a> plans, which start at $2.50 per month. Use promo code <b>INSTANT</b>to recieve <b>50% OFF</b> your first month!</p>
 				</article>
 				<article>
 					<header><h3>How can I add plugins?</h3></header>
