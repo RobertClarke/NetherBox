@@ -19,7 +19,7 @@ require_once('structure/header.php');
 ?>
 <article class="gametypes">
 	<header><h3>Gametypes </h3></header>
-	<p>We currently support these gametypes.</p>
+	<p>We currently support these Minecraft gametypes.</p>
 	<div>
 		<p>Desktop</p>
 		<span class="classic"><div class="info">Classic</div></span>
@@ -81,7 +81,7 @@ require_once('structure/header.php');
 	<article>
 		<i class="icn-stats-dots"></i>
 		<h4>Always Improving</h4>
-		<p>We believe there's no such thing as a "perfect" minecraft server hosting company. That's why we're constantly working on improving our services and control panel to ensure that every customer is receiving the best service for the money they pay.</p>
+		<p>We believe there's no such thing as a "perfect" minecraft hosting company. That's why we're constantly working on improving our services and control panel to ensure that every customer is receiving the best service for the money they pay.</p>
 	</article>
 </div>
 </div></div><div class="body server-bg"><div class="wrapper">
