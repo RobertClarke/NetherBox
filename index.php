@@ -35,14 +35,14 @@ require_once('structure/header.php');
 		<span class="classic"><div class="info">Classic</div></span>
 		<span class="bukkit"><div class="info">Bukkit</div></span>
 		<span class="spigot"><div class="info">Spigot</div></span>
-		<a href="/instant" class="bttn">Try on NetherBox Instant</a>
+		<a href="/instant" class="bttn plain">Try on NetherBox Instant</a>
 	</div>
 	<div>
 		<p>Pocket Edition (MCPE 0.14.3)</p>
 		<span class="pocketmine"><div class="info">PocketMine</div></span>
 		<span class="imagical"><div class="info">ImagicalMine</div></span>
 		<span class="genisys"><div class="info">Genisys</div></span>
-		<a href="/instant" class="bttn">Try on NetherBox Instant</a>
+		<a href="/instant" class="bttn plain">Try on NetherBox Instant</a>
 	</div>
 </article>
 <div class="sep"></div>
