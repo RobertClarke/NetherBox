@@ -18,7 +18,7 @@ class Login extends Request {
 		$client = parent::call('getclientsdetails', ['clientid' => $login['userid']]);
 
 		// Get the SALT & encrypt it
-		$hash = md5( substr($client['password'], -5) . $inputs['password2']);
+		//$hash = md5( substr($client['password'], -5) . $inputs['password2']);
 
 		$response = [
 			'result'	=> 'success',
@@ -33,7 +33,8 @@ class Login extends Request {
 			'state'		=> $client['state'],
 			'postcode'	=> $client['postcode'],
 			'country'	=> $client['country'],
-			'hash'		=> md5($hash . ENCRYPTION_KEY),
+			//'hash'		=> md5($hash . ENCRYPTION_KEY),
+			'hash'		=> md5(substr($client['password'], 0, -6) . ENCRYPTION_KEY),
 		];
 
 		new Response($response, 200, true);
