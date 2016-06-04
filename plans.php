@@ -536,8 +536,8 @@ require_once('structure/header.php');
 						<h5>Choose Payment Method</h5>
 						<table>
 							<tbody>
-								<tr><td><input type="radio" name="paymentmethod" id="paypal" value="paypal" checked /> <label for="paypal">PayPal</label></td></tr>
-								<tr><td><input type="radio" name="paymentmethod" id="cc" value="cc" disabled /> <label for="cc">Credit Card - <b style="color:red">Temporarily Unavailable</b></label></td></tr>
+								<tr><td><input type="radio" name="paymentmethod" id="paypal" value="paypal" checked /> <label for="paypal">PayPal (Or Credit Card)</label></td></tr>
+								<!--<tr><td><input type="radio" name="paymentmethod" id="cc" value="cc" disabled /> <label for="cc">Credit Card - <b style="color:red">Temporarily Unavailable</b></label></td></tr>-->
 							</tbody>
 						</table>
 						<div class="payment-form" id="paypal">
