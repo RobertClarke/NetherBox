@@ -594,10 +594,9 @@ require_once('structure/header.php');
 <div id="paypalredirect" class="step">
 	<div class="title">
 		<h3 class="parent">Pay With PayPal</h3>
-		<h4>Use the buttons below to pay for your order using PayPal</h4>
 	</div>
 	<div class="payment-form solo">
-		<h5>Select a payment option</h5>
+		<h5>Use the button below to pay for your order with PayPal</h5>
 		<div id="paypal-buttons"></div>
 	</div>
 </div>
