@@ -211,7 +211,7 @@ class CreateOrder extends Request {
 				foreach ($params as $param) {
 
 					// Found a PayPal form, store it
-					if ( $params->item($k)->getAttribute('action') == 'https://www.paypal.com/cgi-bin/webscr' && $params->item($k)->getAttribute('name') == 'paymentfrm' ) {
+					if ( $params->item($k)->getAttribute('action') == 'https://www.paypal.com/cgi-bin/webscr' ) {
 						$tmp_dom = new DOMDocument();
 						$tmp_dom->appendChild($tmp_dom->importNode($param, true));
 						$html .= trim($tmp_dom->saveHTML());
