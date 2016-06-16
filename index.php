@@ -38,7 +38,7 @@ require_once('structure/header.php');
 		<a href="/instant" class="bttn plain">Try on NetherBox Instant</a>
 	</div>
 	<div>
-		<p>Pocket Edition (MCPE 0.14.3)</p>
+		<p>Pocket Edition (MCPE 0.15.0)</p>
 		<span class="pocketmine"><div class="info">PocketMine</div></span>
 		<span class="imagical"><div class="info">ImagicalMine</div></span>
 		<span class="genisys"><div class="info">Genisys</div></span>
