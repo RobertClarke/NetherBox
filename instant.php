@@ -8,7 +8,7 @@ $page = [
 
 	'header_h1'		=> 'NetherBox <span>Instant</span>',
 	'header_h2' 	=> 'Free Minecraft Server Hosting',
-	'header_extra'	=> '<div class="button"><a href="#start" id="pc">Start PC Server<span>Minecraft PC 1.1.0</span></a><a href="#start" id="pe">Start PE Server<span>Minecraft PE 0.14.3</span></a></div>',
+	'header_extra'	=> '<div class="button"><a href="#start" id="pc">Start PC Server<span>Minecraft PC 1.1.0</span></a><a href="#start" id="pe">Start PE Server<span>Minecraft PE 0.15.0</span></a></div>',
 ];
 
 require_once('structure/header.php');
