@@ -175,15 +175,15 @@ require_once('structure/header.php');
 			<p>Spigot</p>
 		</a>
 	</div>
-	<div id="select-mobile" class="select select-3 hidden">
+	<div id="select-mobile" class="select select-2 hidden">
 		<a href="#select" data-gametype="genisys" class="selected">
 			<img src="/assets/img/order/type_genisys.png" alt="Genisys" class="icon" />
 			<p>Genisys <span class="default">Default</span></p>
 		</a>
-		<a href="#select" data-gametype="imagical">
+		<!--<a href="#select" data-gametype="imagical">
 			<img src="/assets/img/order/type_imagical.png" alt="ImagicalMine" class="icon" />
 			<p>ImagicalMine</p>
-		</a>
+		</a>-->
 		<a href="#select" data-gametype="pocketmine">
 			<img src="/assets/img/order/type_pocketmine.png" alt="PocketMine" class="icon" />
 			<p>PocketMine</p>
