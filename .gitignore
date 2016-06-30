@@ -4,3 +4,4 @@
 /assets/scripts-raw
 *.codekit-cache
 *.sass-cache
+/assets/css/multicraft.css
