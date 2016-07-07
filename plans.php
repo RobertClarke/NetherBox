@@ -262,7 +262,7 @@ require_once('structure/header.php');
 			<div class="icon"></div>
 			<div class="info">
 				<h3>Dirt</h3>
-				<p>5 Players, 256MB RAM, <span class="p"><span class="price original">$2.50 Monthly</span></span></p>
+				<p>5 Players, 256MB RAM, <span class="p"><span class="price original">$3.00 Monthly</span></span></p>
 			</div>
 			<a href="#select" class="bttn order" data-plan="dirt">Choose Plan</a>
 		</div>
