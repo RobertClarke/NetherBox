@@ -47,7 +47,7 @@ require_once('structure/header.php');
 	<div class="plans">
 		<div class="plan dirt" data-plan="dirt">
 			<div class="icon"></div>
-			<p class="price"><span class="orig">$2.50 Monthly</span></p>
+			<p class="price"><span class="orig">$3.00 Monthly</span></p>
 			<p class="ram">256MB RAM</p>
 			<h3>Dirt Plan</h3>
 			<p>5 Players</p>
