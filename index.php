@@ -2,23 +2,40 @@
 
 $page = [
 	'id'		=>	'home',
-	'title'		=>	'Minecraft Server Hosting',
+	'title'		=>  'Free Minecraft Hosting',
 	'seo_desc'	=>	'Start your own Minecraft server today, with NetherBox. Cheap prices, fast servers, best in class hosting.',
 	'seo_tags'	=>	'minecraft server hosting, minecraft hosting, minecraft server host, minecraft pe hosting',
 	'cta_title'	=>	'',
 	'cta_desc'	=>	'',
 
 	'header_h1'		=> 'High Performance Minecraft Server Hosting',
-	'header_h2' 	=> 'NetherBox is the leader in high performance Minecraft PC and Pocket Edition server hosting.',
-	'header_extra'	=> '<div class="button"><a href="/plans">Build My Dream Server</a><span>Starts at just $2.50 per month</span></div>',
+	'header_h2'		=> 'Play with your friends on a <b>free</b> and <b>private</b> Minecraft server for 24 hours, on us.',
+	'header_extra'	=> '<div class="button"><a href="#start" class="trial">Get Your Free Server Now</a><span class="instant-stats">Loading stats...</span></div>',
 
 ];
 
 require_once('structure/header.php');
 
 ?>
+<article class="features-check">
+	<header><h3>Server Features</h3></header>
+	<p>Paid servers come with loads of cool features!</p>
+	<ul>
+		<li>99.9% Uptime</li>
+		<li>24/7 Support</li>
+		<li>Instant Setup</li>
+		<li>1 Gbps Network</li>
+		<li>MCPE Compatible</li>
+		<li>Plugin Support</li>
+		<li>Free FTP &amp; MySQL</li>
+		<li>Unlimited Bandwidth</li>
+		<li>SSD Drives</li>
+	</ul>
+	<a href="/plans" class="bttn upgrade" target="_blank">Upgrade &amp; Extend Server</a>
+</article>
+<div class="sep"></div>
 <article class="get-started">
-	<p>Enter your Minecraft name to get started!</p>
+	<p>Enter Minecraft name to get started!</p>
 	<div class="input">
 		<form action="/plans" method="GET">
 			<input type="text" name="username" id="username" value="" placeholder="Steve">
@@ -29,25 +46,23 @@ require_once('structure/header.php');
 <div class="sep"></div>
 <article class="gametypes">
 	<header><h3>Gametypes </h3></header>
-	<p>We currently support these Minecraft gametypes.</p>
+	<p>We support these Minecraft gametypes.</p>
 	<div>
-		<p>Desktop</p>
+		<p>Desktop Mineraft</p>
 		<span class="classic"><div class="info">Classic</div></span>
 		<span class="bukkit"><div class="info">Bukkit</div></span>
 		<span class="spigot"><div class="info">Spigot</div></span>
-		<a href="/instant" class="bttn plain">Try on NetherBox Instant</a>
 	</div>
 	<div>
-		<p>Pocket Edition (MCPE 0.15.0)</p>
+		<p>Minecraft PE (Pocket Edition)</p>
 		<span class="pocketmine half"><div class="info">PocketMine</div></span>
 		<span class="genisys half"><div class="info">Genisys</div></span>
-		<a href="/instant" class="bttn plain">Try on NetherBox Instant</a>
 	</div>
 </article>
 <div class="sep"></div>
 <article class="locations">
-	<header><h3>Our Locations</h3></header>
-	<p>Hover over a location for detailed info and test servers.</p>
+	<header><h3>Server Locations</h3></header>
+	<p>Click on a location for info and test servers.</p>
 	<div class="map">
 		<div class="marker dallas">
 			<div class="info">

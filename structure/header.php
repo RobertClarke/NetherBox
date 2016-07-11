@@ -62,7 +62,6 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 							<li><a href="#menu"><i class="icn-menu"></i></a></li>
 						</ul>
 						<ul class="nav">
-							<li><a href="/instant"<?php if ( $p_cur == 'instant' ) echo ' class="active"'; ?>>Instant</a></li>
 							<li><a href="/plans<?php if ( $p_cur == 'instant' ) { ?>?promo=instant<?php } ?>"<?php if ( $p_cur == 'plans' ) echo ' class="active"'; ?>>Plans</a></li>
 							<li><a href="/dedicated"<?php if ( $p_cur == 'dedicated' ) echo ' class="active"'; ?>>Dedicated</a></li>
 							<li><a href="/partners"<?php if ( $p_cur == 'partners' ) echo ' class="active"'; ?>>Partners</a></li>
@@ -77,27 +76,14 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 						</ul>
 					</nav>
 				</section>
-<?php if ( $p_cur == 'index' || $p_cur == 'instant' ) { ?>
+<?php if ( $p_cur == 'index' ) { ?>
 				<section class="page-title home">
 					<div class="title">
 						<h1><?php echo $p['header_h1']; ?></h1>
-<?php if ( $p_cur == 'instant' ) { ?><div id="topText"><?php } ?>
 						<?php if ( !empty($p['header_h2']) ) echo '<h2>'.$p['header_h2'].'</h2>'; ?>
-<?php if ( $p_cur == 'instant' ) { ?>
-						<div class="top-ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- NetherBox Instant Responsive 1 -->
-						<ins class="adsbygoogle"
-						     style="display:block"
-						     data-ad-client="ca-pub-3736311321196703"
-						     data-ad-slot="9285195477"
-						     data-ad-format="auto"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div><?php } ?>
 						<?php if ( !empty($p['header_extra']) ) echo $p['header_extra']; ?>
-<?php if ( $p_cur == 'instant' ) { // Instant only code ?>
-						</div>
-						<div class="wait"></div>
+<?php if ( $p_cur == 'index' ) { // Instant only code ?>
+						<div class="wait">Please wait...</div>
 						<div class="loader"></div>
 						<div class="the-box" id="the-box">
 							<div class="ip"></div>
@@ -108,7 +94,7 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 							<div class="items">
 								<span class="item cmd">Send Command</span>
 								<span class="item delete">Delete Server</span>
-								<span class="item extend">Extend Time</span>
+								<span class="item extend">Upgrade &amp; Extend Server</span>
 							</div>
 							<div class="cmds">
 								<form>

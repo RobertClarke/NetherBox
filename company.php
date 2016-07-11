@@ -1,1 +1,4 @@
-<?php header('Location: https://netherbox.com/'); ?>
+<?php
+header('HTTP/1.1 301 Moved Permanently');
+header('Location: https://netherbox.com/');
+?>
