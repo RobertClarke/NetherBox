@@ -94,7 +94,7 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 							<div class="items">
 								<span class="item cmd">Send Command</span>
 								<span class="item delete">Delete Server</span>
-								<a href="/plans" target="_blank" class="item extend">Upgrade &amp; Extend Server</a>
+								<a href="/plans?promo=instant" target="_blank" class="item extend">Upgrade &amp; Extend Server</a>
 							</div>
 							<div class="cmds">
 								<form>

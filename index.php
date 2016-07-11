@@ -31,7 +31,7 @@ require_once('structure/header.php');
 		<li>Unlimited Bandwidth</li>
 		<li>SSD Drives</li>
 	</ul>
-	<a href="/plans" class="bttn upgrade" target="_blank">Upgrade &amp; Extend Server</a>
+	<a href="/plans?promo=instant" class="bttn upgrade" target="_blank">Upgrade &amp; Extend Server</a>
 </article>
 <div class="sep"></div>
 <article class="get-started">
