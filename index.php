@@ -19,7 +19,16 @@ require_once('structure/header.php');
 ?>
 <article class="features-check">
 	<header><h3>Server Features</h3></header>
-	<p>Paid servers come with loads of cool features!</p>
+	<p class="sub">Paid servers come with loads of cool features!</p>
+	<div class="extend-promo">
+		<div class="section">
+			<div class="text">
+				<strong>Add 6 extra hours of FREE trial time</strong>
+				<p>Tweet about us and we'll give you 6 extra hours of server time!</p>
+			</div>
+			<a href="#tweet" class="bttn twitter button">Click To Tweet</a>
+		</div>
+	</div>
 	<ul>
 		<li>99.9% Uptime</li>
 		<li>24/7 Support</li>
@@ -165,4 +174,26 @@ require_once('structure/header.php');
 	<p>Ready To Order a Server?</p>
 	<a href="/plans" class="bttn">Check Out Plans</a>
 </div>
+<script>
+window.twttr = (function (d, s, id) {
+  var t, js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src= "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+}(document, "script", "twitter-wjs"));
+
+(window.bindTwitter = function() {
+  if (window.twttr == null) {
+    setTimeout(bindTwitter, 500);
+  } else {
+    twttr.ready( function (t) {
+      twttr.events.bind('tweet', function(ev) {
+          imc.api.createSocial("twitter", 12345);
+      });
+    });
+  }
+})();
+</script>
 <?php require_once('structure/footer.php'); ?>
