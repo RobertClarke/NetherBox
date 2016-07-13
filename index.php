@@ -18,8 +18,6 @@ require_once('structure/header.php');
 
 ?>
 <article class="features-check">
-	<header><h3>Server Features</h3></header>
-	<p class="sub">Paid servers come with loads of cool features!</p>
 	<div class="extend-promo">
 		<div class="section">
 			<div class="text">
@@ -91,6 +89,8 @@ require_once('structure/header.php');
 			</div>
 		</div>
 	</div>
+	<header><h3>Server Features</h3></header>
+	<p class="sub">Paid servers come with loads of cool features!</p>
 	<ul class="feature-list">
 		<li>99.9% Uptime</li>
 		<li>24/7 Support</li>
