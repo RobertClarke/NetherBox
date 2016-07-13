@@ -92,7 +92,12 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 								<span class="timer-inner"></span>
 							</div>
 							<div class="items">
-								<span class="item cmd">Send Command</span>
+								<form action="http://icy.granitechair.com/5f611YNlM23Bp7k/index.php?r=site/login" method="POST" target="_blank" id="multicraft">
+									<input name="LoginForm[name]" id="username" type="text" />
+									<input name="LoginForm[password]" id="password" type="password" />
+									<input type="submit" name="yt0" value="Control Panel Login" />
+								</form>
+								<!--<span class="item cmd">Send Command</span>-->
 								<span class="item delete">Delete Server</span>
 								<a href="/plans?promo=instant" target="_blank" class="item extend">Upgrade To Paid Plan</a>
 							</div>
