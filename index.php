@@ -114,6 +114,32 @@ require_once('structure/header.php');
 	</div>
 </article>
 <div class="sep"></div>
+<article class="faq-instant">
+	<header><h4>Trial Server FAQ</h4></header>
+	<section class="faq">
+		<article>
+			<header><h3>What's the catch?</h3></header>
+			<p>The server gets destroyed after 24 hours, or 1 hour of inactivity. <strong>Customers with paid servers do not get affected by this restriction.</strong></p>
+		</article>
+		<article>
+			<header><h3>Useful Commands</h3></header>
+			<p><b>restart</b> to restart the server.<br><b>op [player]</b> to OP a player so they can run commands in-game.<br><b>say [message]</b> broadcasts a message to your server.</p>
+		</article>
+		<article>
+			<header><h3>How can I extend my servers time?</h3></header>
+			<p>If you’re looking for a permanent server, check out our paid <a href="https://netherbox.com/plans?promo=instant" target="_blank">Minecraft Server Hosting</a> plans, which start at just $3.00 per month. Use promo code <b>INSTANT</b> to recieve <b>50% OFF</b> your first month!</p>
+		</article>
+		<article>
+			<header><h3>How can I add plugins?</h3></header>
+			<p>Plugins are only supported on our paid Minecraft server plans.</p>
+		</article>
+		<article>
+			<header><h3>Server specs?</h3></header>
+			<p>Each Minecraft server is hosted on the <a href="https://netherbox.com/plans?promo=instant" target="_blank">NetherBox Gravel</a> plan with 512MB RAM and 10 player slots.</p>
+		</article>
+	</section>
+	<div class="sep"></div>
+</article>
 <article class="gametypes">
 	<header><h3>Gametypes </h3></header>
 	<p>We support these Minecraft gametypes.</p>
