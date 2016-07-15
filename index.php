@@ -10,8 +10,11 @@ $page = [
 
 	'header_h1'		=> 'High Performance Minecraft Server Hosting',
 	'header_h2'		=> 'Play with your friends on a <b>free</b> and <b>private</b> Minecraft server for 24 hours, on us.',
-	'header_extra'	=> '<div class="button"><a href="#start" class="trial">Get Your Free Server Now</a><span class="instant-stats">Loading stats...</span></div>',
+	'header_extra'	=> '',
 
+	// These versions are for the "start trial" buttons in the header
+	'version_pc'	=> '1.1.0',
+	'version_pe'	=> '0.15.0',
 ];
 
 require_once('structure/header.php');
