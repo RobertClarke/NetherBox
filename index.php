@@ -2,8 +2,8 @@
 
 $page = [
 	'id'		=>	'home',
-	'title'		=>  'Free Minecraft Server Hosting',
-	'seo_desc'	=>	'Start your own Minecraft server today, with NetherBox. Cheap prices, fast servers, best in class hosting.',
+	'title'		=>  'Instant Free Minecraft Server Hosting',
+	'seo_desc'	=>	'Start your own free Minecraft server today, with NetherBox. Cheap prices, fast servers, best in class server hosting.',
 	'seo_tags'	=>	'minecraft server hosting, minecraft hosting, minecraft server host, minecraft pe hosting',
 	'cta_title'	=>	'',
 	'cta_desc'	=>	'',
