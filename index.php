@@ -13,8 +13,8 @@ $page = [
 	'header_extra'	=> '',
 
 	// These versions are for the "start trial" buttons in the header
-	'version_pc'	=> '1.1.0',
-	'version_pe'	=> '0.15.0',
+	'version_pc'	=> '1.10.2',
+	'version_pe'	=> '0.15.2',
 ];
 
 require_once('structure/header.php');
