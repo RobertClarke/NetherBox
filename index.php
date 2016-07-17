@@ -147,7 +147,7 @@ require_once('structure/header.php');
 	<header><h3>Gametypes </h3></header>
 	<p>We support these Minecraft gametypes.</p>
 	<div>
-		<p>Desktop Mineraft</p>
+		<p>Desktop Minecraft</p>
 		<span class="classic"><div class="info">Classic</div></span>
 		<span class="bukkit"><div class="info">Bukkit</div></span>
 		<span class="spigot"><div class="info">Spigot</div></span>
