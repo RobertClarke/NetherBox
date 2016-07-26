@@ -88,6 +88,7 @@ class CreateOrder extends Request {
 			'ashburn'	=> ' Ashburn', // Has a space at the beginning on purpose; how it's setup in WHMCS
 			'la'		=> ' Los Angeles', // Has a space at the beginning on purpose; how it's setup in WHMCS
 			'amsterdam'	=> ' Amsterdam', // Has a space at the beginning on purpose; how it's setup in WHMCS
+			'seattle'	=> ' Seattle', // Has a space at the beginning on purpose; how it's setup in WHMCS
 		];
 
 		// Array to be submitted to WHMCS API

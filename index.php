@@ -181,6 +181,12 @@ require_once('structure/header.php');
 				<span class="test-servers"><span>Try our test servers!</span>PC: <b>ash.pc.nether.co</b><br>PE: <b>ash.pe.nether.co</b></span>
 			</div>
 		</div>
+		<div class="marker seattle">
+			<div class="info">
+				<b>Seattle, WA</b>
+				<span class="test-servers"><span>Try our test servers!</span>PC: <b>sea.pc.nether.co</b><br>PE: <b>sea.pe.nether.co</b></span>
+			</div>
+		</div>
 		<div class="marker amsterdam">
 			<div class="info">
 				<b>Amsterdam, NL</b>

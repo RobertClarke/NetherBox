@@ -215,6 +215,12 @@ require_once('structure/header.php');
 				<span class="test-servers"><span>Try our test servers!</span>PC: <b>ash.pc.nether.co</b><br>PE: <b>ash.pe.nether.co</b></span>
 			</div>
 		</div>
+		<div class="marker seattle green"  data-location="seattle">
+			<div class="info">
+				<b>Seattle, WA</b>
+				<span class="test-servers"><span>Try our test servers!</span>PC: <b>sea.pc.nether.co</b><br>PE: <b>sea.pe.nether.co</b></span>
+			</div>
+		</div>
 		<div class="marker amsterdam green" data-location="amsterdam">
 			<div class="info">
 				<b>Amsterdam, NL</b>
@@ -222,9 +228,10 @@ require_once('structure/header.php');
 			</div>
 		</div>
 	</div>
-	<div class="select select-4">
+	<div class="select select-5">
+		<a href="#select" data-location="seattle" class="seattle"><p>Seattle <span class="extra">United States</span></p></a>
 		<a href="#select" data-location="la" class="la"><p>Los Angeles <span class="extra">United States</span></p></a>
-		<a href="#select" data-location="dallas" class="dallas" class="selected"><p>Dallas <span class="extra">United States - MOST POPULAR</span></p></a>
+		<a href="#select" data-location="dallas" class="dallas" class="selected"><p>Dallas <span class="extra">United States<br><strong>MOST POPULAR</strong></span></p></a>
 		<a href="#select" data-location="ashburn" class="ashburn"><p>Ashburn <span class="extra">United States</span></p></a>
 		<a href="#select" data-location="amsterdam" class="amsterdam"><p>Amsterdam <span class="extra">Netherlands</span></p></a>
 	</div>
