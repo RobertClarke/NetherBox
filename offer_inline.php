@@ -9,7 +9,7 @@ $enabled = true;
 
 // Offer text and text
 // $text = 'Get <b>15% OFF</b> recurring with promo code "NETHER" at checkout.';
-$text = 'Get <b>25% OFF</b> with promo code "PIG" at checkout, limited time sale!';
+$text = 'Get <b>15% OFF</b> with promo code "PIG" at checkout, limited time sale!';
 $link = 'https://netherbox.com/?promo=PIG';
 
 // Do not edit below this line
