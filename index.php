@@ -130,7 +130,7 @@ require_once('structure/header.php');
 		</article>
 		<article>
 			<header><h3>How can I extend my servers time?</h3></header>
-			<p>If you’re looking for a permanent server, check out our paid <a href="https://netherbox.com/plans?promo=instant" target="_blank">Minecraft Server Hosting</a> plans, which start at just $3.00 per month. Use promo code <b>INSTANT</b> to recieve <b>50% OFF</b> your first month!</p>
+			<p>If you’re looking for a permanent server, check out our paid <a href="https://netherbox.com/plans?promo=instant" target="_blank">Minecraft Server Hosting</a> plans, which start at just $3.00 per month. Use promo code <b>INSTANT</b> to recieve <b>20% OFF</b> your first month!</p>
 		</article>
 		<article>
 			<header><h3>How can I add plugins?</h3></header>
