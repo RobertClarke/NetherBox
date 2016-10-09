@@ -4,7 +4,7 @@
 			<div class="wrapper">
 				<span class="copyright">&copy; NetherBox | Minecraft Server Hosting 2014 - <?php echo date('Y'); ?></span>
 				<span class="right">
-					<a href="/jobs">Jobs</a> / <a href="/tos">Terms of Service</a> / <a href="/privacy">Privacy Policy</a> / <a href="http://cubemotion.com" target="_blank">A CubeMotion Company</a>
+					<a href="/jobs">Jobs</a> / <a href="/tos">Terms of Service</a> / <a href="/privacy">Privacy Policy</a> / <a href="https://servercrate.com" target="_blank">A ServerCrate Company</a>
 				</span>
 			</div>
 		</footer>
