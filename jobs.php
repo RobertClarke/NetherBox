@@ -169,7 +169,7 @@ require_once('structure/header.php');
 		<article data-position="Minecraft Support Specialist">
 			<p><a href="#details" class="toggle">Minecraft Support Specialist</a><!--<a href="#details" class="bttn toggle">View Details</a>--></p>
 			<div class="details" style="display:block;">
-				<p>Part-Time - From Home</p>
+				<p>Telecommute (From Home)</p>
 				<p>NetherBox is looking for an experienced Minecraft Support Specialist to work alongside our team and appropriately handle hundreds of tickets submitted by clients per month.</p>
 				<h5>Responsibilities &amp; Requirements</h5>
 				<ul>
