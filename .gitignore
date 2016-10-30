@@ -1,5 +1,6 @@
 .DS_Store
 *.codekit
+*.codekit3
 /assets/styles
 /assets/scripts-raw
 *.codekit-cache
