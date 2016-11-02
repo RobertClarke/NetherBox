@@ -14,7 +14,7 @@ $page = [
 
 	// These versions are for the "start trial" buttons in the header
 	'version_pc'	=> '1.10.2',
-	'version_pe'	=> '0.15.10',
+	'version_pe'	=> '0.16.0',
 ];
 
 require_once('structure/header.php');
