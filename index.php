@@ -13,7 +13,7 @@ $page = [
 	'header_extra'	=> '',
 
 	// These versions are for the "start trial" buttons in the header
-	'version_pc'	=> '1.10.2',
+	'version_pc'	=> '1.11',
 	'version_pe'	=> '0.16.1',
 ];
 
