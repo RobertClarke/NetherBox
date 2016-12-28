@@ -12,9 +12,6 @@ $p = [
 	'header_h1'		=> !empty($page['header_h1']) ? $page['header_h1']	: '',
 	'header_h2'		=> !empty($page['header_h2']) ? $page['header_h2']	: '',
 	'header_extra'	=> !empty($page['header_extra']) ? $page['header_extra']	: '',
-
-	'version_pc'	=> !empty($page['version_pc']) ? $page['version_pc'] : '',
-	'version_pe'	=> !empty($page['version_pe']) ? $page['version_pe'] : '',
 ];
 
 $p_cur = basename($_SERVER['PHP_SELF'], '.php');
@@ -85,30 +82,6 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 						<h1><?php echo $p['header_h1']; ?></h1>
 						<?php if ( !empty($p['header_h2']) ) echo '<h2>'.$p['header_h2'].'</h2>'; ?>
 						<?php if ( !empty($p['header_extra']) ) echo $p['header_extra']; ?>
-<?php if ( $p_cur == 'index' ) { // Instant only code ?>
-						<div class="button"><a href="#start" class="trial">Get Your Free Server Now</a><span class="instant-stats">Loading stats...</span></div>
-						<div class="start-buttons"><a href="#start" id="pc">Start PC Trial<span>24 Hours (<?php echo $p['version_pc']; ?>)</span></a><a href="#start" id="pe">Start PE Trial<span>24 Hours (<?php echo $p['version_pe']; ?>)</span></a></div>
-						<div class="wait">Please wait...</div>
-						<div class="loader"></div>
-						<div class="the-box" id="the-box">
-							<div class="ip"></div>
-							<div class="port"></div>
-							<div class="timer">
-								<span class="timer-inner"></span>
-							</div>
-							<div class="items">
-								<span class="item cmd">Send Command</span>
-								<span class="item delete">Delete Server</span>
-								<a href="/plans?promo=instant" target="_blank" class="item extend">Upgrade To Paid Plan</a>
-							</div>
-							<div class="cmds">
-								<form>
-									<input type="text" placeholder="Type a command and hit enter!" />
-								</form>
-							</div>
-						</div>
-						<div class="the-error" id="the-error"></div>
-<?php } ?>
 					</div>
 				</section>
 <?php } else if ( !empty($p['header_h1']) ) { ?>
