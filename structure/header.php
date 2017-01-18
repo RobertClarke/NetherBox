@@ -28,14 +28,6 @@ $p_cur = basename($_SERVER['PHP_SELF'], '.php');
 		<link rel="shortcut icon" href="favicon.png">
 		<meta name="description" content="<?php echo $p['seo_desc']; ?>">
 		<meta name="keywords" content="<?php echo $p['seo_tags']; ?>">
-		<script>
-		  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-		  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-		  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-		  insertBefore(d,q)}(window,document,'script','_gs');
-
-		  _gs('GSN-571803-S');
-		</script>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
