@@ -125,7 +125,7 @@ require_once('structure/header.php');
 	<article>
 		<i class="icn-earth"></i>
 		<h4>Great Location</h4>
-		<p>Located in a secure, state-of-the-art datacenter in Dallas, Texas, our servers are not only secured but also provide a great connection to you and other players.</p>
+		<p>Located in a secure, state-of-the-art datacenter in Seattle, Washington, our servers are not only secured but also provide a great connection to you and other players.</p>
 	</article>
 </div>
 
