@@ -197,43 +197,15 @@ require_once('structure/header.php');
 		<h4>Hover over a location for detailed info and test servers.</h4>
 	</div>
 	<div class="map">
-		<div class="marker dallas green" data-location="dallas">
-			<div class="info">
-				<b>Dallas, USA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>dal.pc.nether.co</b><br>PE: <b>dal.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker la green" data-location="la">
-			<div class="info">
-				<b>Los Angeles, USA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>la.pc.nether.co</b><br>PE: <b>la.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker ashburn green" data-location="ashburn">
-			<div class="info">
-				<b>Ashburn, USA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>ash.pc.nether.co</b><br>PE: <b>ash.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker seattle green"  data-location="seattle">
+		<div class="marker seattle green" data-location="seattle">
 			<div class="info">
 				<b>Seattle, WA</b>
 				<span class="test-servers"><span>Try our test servers!</span>PC: <b>sea.pc.nether.co</b><br>PE: <b>sea.pe.nether.co</b></span>
 			</div>
 		</div>
-		<div class="marker amsterdam green" data-location="amsterdam">
-			<div class="info">
-				<b>Amsterdam, NL</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>ams.pc.nether.co</b><br>PE: <b>ams.pe.nether.co</b></span>
-			</div>
-		</div>
 	</div>
-	<div class="select select-5">
-		<a href="#select" data-location="seattle" class="seattle"><p>Seattle <span class="extra">United States</span></p></a>
-		<a href="#select" data-location="la" class="la"><p>Los Angeles <span class="extra">United States</span></p></a>
-		<a href="#select" data-location="dallas" class="dallas" class="selected"><p>Dallas <span class="extra">United States<br><strong>MOST POPULAR</strong></span></p></a>
-		<a href="#select" data-location="ashburn" class="ashburn"><p>Ashburn <span class="extra">United States</span></p></a>
-		<a href="#select" data-location="amsterdam" class="amsterdam"><p>Amsterdam <span class="extra">Netherlands</span></p></a>
+	<div class="select select-5" style="text-align: center;">
+		<a href="#select" data-location="seattle" class="seattle selected" style="float: none; display: inline-block;"><p>Seattle <span class="extra">United States</span></p></a>
 	</div>
 	<div class="next"><button class="bttn disabled" disabled="disabled">Next Step</button></div><div class="back"><button class="bttn">Back</button></div>
 </div>
