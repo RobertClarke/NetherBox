@@ -84,43 +84,6 @@ require_once('structure/header.php');
 	</div>
 </article>
 <div class="sep"></div>
-<article class="locations">
-	<header><h3>Server Locations</h3></header>
-	<p>Click on a location for info and test servers.</p>
-	<div class="map">
-		<div class="marker dallas">
-			<div class="info">
-				<b>Dallas, USA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>dal.pc.nether.co</b><br>PE: <b>dal.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker la">
-			<div class="info">
-				<b>Los Angeles, USA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>la.pc.nether.co</b><br>PE: <b>la.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker ashburn">
-			<div class="info">
-				<b>Ashburn, USA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>ash.pc.nether.co</b><br>PE: <b>ash.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker seattle">
-			<div class="info">
-				<b>Seattle, WA</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>sea.pc.nether.co</b><br>PE: <b>sea.pe.nether.co</b></span>
-			</div>
-		</div>
-		<div class="marker amsterdam">
-			<div class="info">
-				<b>Amsterdam, NL</b>
-				<span class="test-servers"><span>Try our test servers!</span>PC: <b>ams.pc.nether.co</b><br>PE: <b>ams.pe.nether.co</b></span>
-			</div>
-		</div>
-	</div>
-</article>
-<div class="sep"></div>
 <div class="features-3">
 	<article>
 		<i class="icn-heart"></i>
