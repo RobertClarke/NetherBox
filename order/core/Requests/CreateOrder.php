@@ -91,6 +91,9 @@ class CreateOrder extends Request {
 			'seattle'	=> ' Seattle', // Has a space at the beginning on purpose; how it's setup in WHMCS
 		];
 
+		// Force location to Seattle
+		$inputs['location'] = 'seattle';
+
 		// Array to be submitted to WHMCS API
 		$submit = [
 			'clientid'		=> $inputs['client'],
