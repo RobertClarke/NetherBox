@@ -123,8 +123,8 @@ require_once('structure/header.php');
 		</article>
 		<article>
 			<i class="icn-wrench"></i>
-			<h4>Control Panel</h4>
-			<p>Quickly and easily edit &amp; manage your servers from our control panel.</p>
+			<h4>Custom Software Support</h4>
+			<p>Want to use a custom .jar or .phar on your server? No problem!</p>
 		</article>
 		<article>
 			<i class="icn-drive"></i>
