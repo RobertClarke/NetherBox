@@ -26,7 +26,7 @@
 		
 		<script src="/billing/assets/js/jquery.min.js"></script>
 		<script src="templates/{$template}/js/jquery-ui.min.js"></script>
-		<script src="templates/{$template}/js/jquery.selectBoxIt.min.js"></script>
+		<!--<script src="templates/{$template}/js/jquery.selectBoxIt.min.js"></script>-->
 		<script src="templates/{$template}/js/whmcs.js"></script>
 		<script src="templates/{$template}/js/bootstrap.min.js"></script>
 		<script src="templates/{$template}/js/netherbox.js"></script>

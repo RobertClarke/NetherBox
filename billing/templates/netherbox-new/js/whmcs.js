@@ -3,9 +3,9 @@
 jQuery(document).ready(function(){
 	
   // Calls the selectBoxIt method on your HTML select box and uses the Bootstrap theme
-  jQuery("select").selectBoxIt({
-	  theme: "bootstrap"
-  });
+  // jQuery("select").selectBoxIt({
+	//   theme: "bootstrap"
+  // });
   
   var mobile = 0;
   // Fix for mobile view order form
