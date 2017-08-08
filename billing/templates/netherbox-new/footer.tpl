@@ -17,9 +17,9 @@
 			</div>
 		</footer>
 {literal}
-	<script>
-      var selectBox = $("select").selectBoxIt().data("selectBoxIt");            
-	</script>
+	<!--<script>
+      var selectBox = $("select").selectBoxIt().data("selectBoxIt");     
+	</script>-->
 {/literal}	
 		{$footeroutput}
 	</body>
